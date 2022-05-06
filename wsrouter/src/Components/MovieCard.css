@@ -1,0 +1,87 @@
+body {
+    background: #272626;
+    width: 98%;
+    height: 100vh;
+}
+.card {
+    width: 700px;
+    height: 400px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+   
+    margin:20px 0;
+    margin-top: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+    transform: scale(0.95);
+    transition: all 0.5s;
+}
+.card:hover{
+    transform: scale(1);
+    transition: all 0.5s;
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    position: relative;
+}
+
+ .card_left {
+    width: 40%;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+    background: transparent;
+}
+.card_right {
+    width: 60%;
+   
+    background: #000;
+    height: 400px;
+    border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+}
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    font-size: 40px;
+    margin: 30px 0 0 0;
+    padding: 0 0 0 40px;
+    letter-spacing: 1px;
+}
+li {
+    display: inline;
+    color: #e3e3e3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 40px 0 0;
+}
+.star {
+    position: relative;
+    left: 10px;
+    margin: 10px 0 10px 0;
+    color: gold;
+}
+.card_right__review p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 0 40px 0 40px;
+    letter-spacing: 1px;
+    margin: 10px 0 10px 0;
+    line-height: 20px;
+}
+.card_right__button {
+    padding: 0 0 0 40px;
+    margin: 50px 0 0 0;
+}
